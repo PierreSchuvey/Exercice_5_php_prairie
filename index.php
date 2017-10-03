@@ -1,9 +1,8 @@
 <?php
-$fu = "FU";
-$sion ="SION !";
-function fusion($fu,$sion)
+function fusion($string1,$string2)
 {
-  return $fu.''.$sion;
+  $fusion = $string1 . $string2;
+  return $fusion;
 }
-echo fusion($fu,$sion);
+echo fusion('FUUUUUU','SION!');
 ?>
